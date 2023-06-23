@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A82E4B0406F246D036AE644BB5501B4 /* Pods-BBVA-randomuser-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DDE555BECCDA281BBFB5975EEC86217 /* Pods-BBVA-randomuser-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C87EA6CD0F89EEB4FF068482EA63AD4 /* Pods-BBVA-randomuser-BBVA-randomuserUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D68749F4F5E772D09CEDD89EE7BDCD1E /* Pods-BBVA-randomuser-BBVA-randomuserUITests-dummy.m */; };
+		4C9CE163D1BFD2FAF7AAFB0424D21CBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		553C3DAD63C7E904503FD1C8586A4839 /* Pods-BBVA-randomuserTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2324EADDECFA427FCDB1A99674B500D /* Pods-BBVA-randomuserTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A63D693076A7F69B7C0D0161BC070CCF /* Pods-BBVA-randomuser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F0F77C3F5BC51AC660658C2ACA2D5FC /* Pods-BBVA-randomuser-dummy.m */; };
+		B4E3CB672DD5AC59508C8ACD96FE5979 /* Pods-BBVA-randomuserTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B8AC6EA17E51D4C7B5AA9B9F45F145 /* Pods-BBVA-randomuserTests-dummy.m */; };
+		C18FFD456FEFAB0A60F34D5881165D1F /* Pods-BBVA-randomuser-BBVA-randomuserUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BF70E465A1BDB2C7D920AB51B50E464 /* Pods-BBVA-randomuser-BBVA-randomuserUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C57A5C785CDAEEF90535012C7F3A2829 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DDAF93B74162FE2C960D865C2B09DC64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		814CBBAF14DAA19B3E0841124FE20A2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79F20C1680A500A2A2507641192B9F3F;
+			remoteInfo = "Pods-BBVA-randomuser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04B8AC6EA17E51D4C7B5AA9B9F45F145 /* Pods-BBVA-randomuserTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BBVA-randomuserTests-dummy.m"; sourceTree = "<group>"; };
+		0BF70E465A1BDB2C7D920AB51B50E464 /* Pods-BBVA-randomuser-BBVA-randomuserUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BBVA-randomuser-BBVA-randomuserUITests-umbrella.h"; sourceTree = "<group>"; };
+		130794097B2F563E2E7CF631D0BB6BE1 /* Pods-BBVA-randomuser-BBVA-randomuserUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BBVA-randomuser-BBVA-randomuserUITests.modulemap"; sourceTree = "<group>"; };
+		18B253C3F286E1FB31A61063B399AAE8 /* Pods-BBVA-randomuser-BBVA-randomuserUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BBVA-randomuser-BBVA-randomuserUITests-Info.plist"; sourceTree = "<group>"; };
+		19BEC9EB3C92D4658091D215BACAEE49 /* Pods-BBVA-randomuser.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BBVA-randomuser.modulemap"; sourceTree = "<group>"; };
+		1F0F77C3F5BC51AC660658C2ACA2D5FC /* Pods-BBVA-randomuser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BBVA-randomuser-dummy.m"; sourceTree = "<group>"; };
+		2DDE555BECCDA281BBFB5975EEC86217 /* Pods-BBVA-randomuser-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BBVA-randomuser-umbrella.h"; sourceTree = "<group>"; };
+		34AD9FD8BB7603B292BEF3C50B1A0EED /* Pods-BBVA-randomuser-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BBVA-randomuser-Info.plist"; sourceTree = "<group>"; };
+		3882D139A946B310EEF7D85586012F6E /* Pods-BBVA-randomuser-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BBVA-randomuser-acknowledgements.plist"; sourceTree = "<group>"; };
+		50D0A77C3CE8AFA1F790F73592739533 /* Pods-BBVA-randomuser-BBVA-randomuserUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BBVA-randomuser-BBVA-randomuserUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		54D35051294C39462001547A6EAFCD70 /* Pods-BBVA-randomuserTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BBVA-randomuserTests.modulemap"; sourceTree = "<group>"; };
+		57D30696FC1F60F93CCA07247E9C8027 /* Pods-BBVA-randomuserTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BBVA-randomuserTests.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7ACE419EE01DDEABF3763574CBA27866 /* Pods-BBVA-randomuserTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BBVA-randomuserTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FB3663159DEC76CB934DF22661B768F /* Pods-BBVA-randomuserTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BBVA-randomuserTests-Info.plist"; sourceTree = "<group>"; };
+		903D208815B216743C076969371D6672 /* Pods-BBVA-randomuser-BBVA-randomuserUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BBVA-randomuser-BBVA-randomuserUITests"; path = Pods_BBVA_randomuser_BBVA_randomuserUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92C1AB81E8F7D574CBC87D95C9DCA984 /* Pods-BBVA-randomuser */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BBVA-randomuser"; path = Pods_BBVA_randomuser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1FCD90ED259F562FB3652F5A077EF06 /* Pods-BBVA-randomuserTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BBVA-randomuserTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A63D778B039F725CCDA5474C7962C0EB /* Pods-BBVA-randomuser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BBVA-randomuser.debug.xcconfig"; sourceTree = "<group>"; };
+		A82B6FAA67796C12E7DFE0BAB566089D /* Pods-BBVA-randomuser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BBVA-randomuser.release.xcconfig"; sourceTree = "<group>"; };
+		B4D2745018004CA3CFBE8B08AC0AB527 /* Pods-BBVA-randomuser-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BBVA-randomuser-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BEB65D242709862A4147D06E19C02430 /* Pods-BBVA-randomuserTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BBVA-randomuserTests"; path = Pods_BBVA_randomuserTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2324EADDECFA427FCDB1A99674B500D /* Pods-BBVA-randomuserTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BBVA-randomuserTests-umbrella.h"; sourceTree = "<group>"; };
+		D58A3F47DEFAADF39348B2EEA94ABE45 /* Pods-BBVA-randomuser-BBVA-randomuserUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BBVA-randomuser-BBVA-randomuserUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D68749F4F5E772D09CEDD89EE7BDCD1E /* Pods-BBVA-randomuser-BBVA-randomuserUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BBVA-randomuser-BBVA-randomuserUITests-dummy.m"; sourceTree = "<group>"; };
+		DC66C914EE94AFEDF27B5E37FC112B58 /* Pods-BBVA-randomuser-BBVA-randomuserUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BBVA-randomuser-BBVA-randomuserUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E3ADA3A65E0207F2EC428AF91605D734 /* Pods-BBVA-randomuserTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BBVA-randomuserTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E7054E0ED97CF3611A4231C1280449F4 /* Pods-BBVA-randomuser-BBVA-randomuserUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BBVA-randomuser-BBVA-randomuserUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10BDD3AAD88E841CBE3BECE5F92D7513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57A5C785CDAEEF90535012C7F3A2829 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44490072BAB0A35E2FBB35C824095351 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAF93B74162FE2C960D865C2B09DC64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B09F6C17CDEC94AC64D76F038DFBD863 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C9CE163D1BFD2FAF7AAFB0424D21CBD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		020B2566E0374EA8134B0F10996333A1 /* Pods-BBVA-randomuser */ = {
+			isa = PBXGroup;
+			children = (
+				19BEC9EB3C92D4658091D215BACAEE49 /* Pods-BBVA-randomuser.modulemap */,
+				B4D2745018004CA3CFBE8B08AC0AB527 /* Pods-BBVA-randomuser-acknowledgements.markdown */,
+				3882D139A946B310EEF7D85586012F6E /* Pods-BBVA-randomuser-acknowledgements.plist */,
+				1F0F77C3F5BC51AC660658C2ACA2D5FC /* Pods-BBVA-randomuser-dummy.m */,
+				34AD9FD8BB7603B292BEF3C50B1A0EED /* Pods-BBVA-randomuser-Info.plist */,
+				2DDE555BECCDA281BBFB5975EEC86217 /* Pods-BBVA-randomuser-umbrella.h */,
+				A63D778B039F725CCDA5474C7962C0EB /* Pods-BBVA-randomuser.debug.xcconfig */,
+				A82B6FAA67796C12E7DFE0BAB566089D /* Pods-BBVA-randomuser.release.xcconfig */,
+			);
+			name = "Pods-BBVA-randomuser";
+			path = "Target Support Files/Pods-BBVA-randomuser";
+			sourceTree = "<group>";
+		};
+		1057C7A042AD5F7022E1B8E0CDB20B07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92C1AB81E8F7D574CBC87D95C9DCA984 /* Pods-BBVA-randomuser */,
+				903D208815B216743C076969371D6672 /* Pods-BBVA-randomuser-BBVA-randomuserUITests */,
+				BEB65D242709862A4147D06E19C02430 /* Pods-BBVA-randomuserTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52C1E8DD9B2B68E4140103683BA3698E /* Pods-BBVA-randomuser-BBVA-randomuserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				130794097B2F563E2E7CF631D0BB6BE1 /* Pods-BBVA-randomuser-BBVA-randomuserUITests.modulemap */,
+				DC66C914EE94AFEDF27B5E37FC112B58 /* Pods-BBVA-randomuser-BBVA-randomuserUITests-acknowledgements.markdown */,
+				50D0A77C3CE8AFA1F790F73592739533 /* Pods-BBVA-randomuser-BBVA-randomuserUITests-acknowledgements.plist */,
+				D68749F4F5E772D09CEDD89EE7BDCD1E /* Pods-BBVA-randomuser-BBVA-randomuserUITests-dummy.m */,
+				18B253C3F286E1FB31A61063B399AAE8 /* Pods-BBVA-randomuser-BBVA-randomuserUITests-Info.plist */,
+				0BF70E465A1BDB2C7D920AB51B50E464 /* Pods-BBVA-randomuser-BBVA-randomuserUITests-umbrella.h */,
+				D58A3F47DEFAADF39348B2EEA94ABE45 /* Pods-BBVA-randomuser-BBVA-randomuserUITests.debug.xcconfig */,
+				E7054E0ED97CF3611A4231C1280449F4 /* Pods-BBVA-randomuser-BBVA-randomuserUITests.release.xcconfig */,
+			);
+			name = "Pods-BBVA-randomuser-BBVA-randomuserUITests";
+			path = "Target Support Files/Pods-BBVA-randomuser-BBVA-randomuserUITests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		58AFC9CC119FD9BE85BA9B550934C481 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				020B2566E0374EA8134B0F10996333A1 /* Pods-BBVA-randomuser */,
+				52C1E8DD9B2B68E4140103683BA3698E /* Pods-BBVA-randomuser-BBVA-randomuserUITests */,
+				8903B89D0188EB4A67733BD25B7206F3 /* Pods-BBVA-randomuserTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8903B89D0188EB4A67733BD25B7206F3 /* Pods-BBVA-randomuserTests */ = {
+			isa = PBXGroup;
+			children = (
+				54D35051294C39462001547A6EAFCD70 /* Pods-BBVA-randomuserTests.modulemap */,
+				E3ADA3A65E0207F2EC428AF91605D734 /* Pods-BBVA-randomuserTests-acknowledgements.markdown */,
+				A1FCD90ED259F562FB3652F5A077EF06 /* Pods-BBVA-randomuserTests-acknowledgements.plist */,
+				04B8AC6EA17E51D4C7B5AA9B9F45F145 /* Pods-BBVA-randomuserTests-dummy.m */,
+				7FB3663159DEC76CB934DF22661B768F /* Pods-BBVA-randomuserTests-Info.plist */,
+				D2324EADDECFA427FCDB1A99674B500D /* Pods-BBVA-randomuserTests-umbrella.h */,
+				7ACE419EE01DDEABF3763574CBA27866 /* Pods-BBVA-randomuserTests.debug.xcconfig */,
+				57D30696FC1F60F93CCA07247E9C8027 /* Pods-BBVA-randomuserTests.release.xcconfig */,
+			);
+			name = "Pods-BBVA-randomuserTests";
+			path = "Target Support Files/Pods-BBVA-randomuserTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1057C7A042AD5F7022E1B8E0CDB20B07 /* Products */,
+				58AFC9CC119FD9BE85BA9B550934C481 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		39CF8D0DCBDB3ACFACE6CDB0779641D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18FFD456FEFAB0A60F34D5881165D1F /* Pods-BBVA-randomuser-BBVA-randomuserUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A4A860D62EFF7CB18F800745FD76BD0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				553C3DAD63C7E904503FD1C8586A4839 /* Pods-BBVA-randomuserTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DE419FC666919874ECEA551C7BBD3F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A82E4B0406F246D036AE644BB5501B4 /* Pods-BBVA-randomuser-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		79F20C1680A500A2A2507641192B9F3F /* Pods-BBVA-randomuser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63EC86F7AB6D959CEB3C44CF4D9FE4BC /* Build configuration list for PBXNativeTarget "Pods-BBVA-randomuser" */;
+			buildPhases = (
+				7DE419FC666919874ECEA551C7BBD3F6 /* Headers */,
+				AD682A6263CF8A521A493DCCE998F8EF /* Sources */,
+				10BDD3AAD88E841CBE3BECE5F92D7513 /* Frameworks */,
+				66FF281C7C0322B4DC4AE65713469EB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BBVA-randomuser";
+			productName = Pods_BBVA_randomuser;
+			productReference = 92C1AB81E8F7D574CBC87D95C9DCA984 /* Pods-BBVA-randomuser */;
+			productType = "com.apple.product-type.framework";
+		};
+		7BCB25445A28F6CF6E753FEA2B6E96F8 /* Pods-BBVA-randomuser-BBVA-randomuserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FA16B9B4EF3864D2A425E35F13E57DD /* Build configuration list for PBXNativeTarget "Pods-BBVA-randomuser-BBVA-randomuserUITests" */;
+			buildPhases = (
+				39CF8D0DCBDB3ACFACE6CDB0779641D3 /* Headers */,
+				74DB5E6BBB88718939F84115D822C7F8 /* Sources */,
+				44490072BAB0A35E2FBB35C824095351 /* Frameworks */,
+				FA457853E20CE7F6634D143B0713E4DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BBVA-randomuser-BBVA-randomuserUITests";
+			productName = Pods_BBVA_randomuser_BBVA_randomuserUITests;
+			productReference = 903D208815B216743C076969371D6672 /* Pods-BBVA-randomuser-BBVA-randomuserUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA9B6A3E96A985D480E1440DA4DEECFF /* Pods-BBVA-randomuserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BBCEAC3B6D810941B945CD34366FF16 /* Build configuration list for PBXNativeTarget "Pods-BBVA-randomuserTests" */;
+			buildPhases = (
+				3A4A860D62EFF7CB18F800745FD76BD0 /* Headers */,
+				ED619CFF9FE6C0F7413B8B28226D9F77 /* Sources */,
+				B09F6C17CDEC94AC64D76F038DFBD863 /* Frameworks */,
+				4CFDD3CFE37E68AA346B0443336F4A62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185FAC318DD9B4604010BCA482169582 /* PBXTargetDependency */,
+			);
+			name = "Pods-BBVA-randomuserTests";
+			productName = Pods_BBVA_randomuserTests;
+			productReference = BEB65D242709862A4147D06E19C02430 /* Pods-BBVA-randomuserTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1057C7A042AD5F7022E1B8E0CDB20B07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79F20C1680A500A2A2507641192B9F3F /* Pods-BBVA-randomuser */,
+				7BCB25445A28F6CF6E753FEA2B6E96F8 /* Pods-BBVA-randomuser-BBVA-randomuserUITests */,
+				FA9B6A3E96A985D480E1440DA4DEECFF /* Pods-BBVA-randomuserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CFDD3CFE37E68AA346B0443336F4A62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FF281C7C0322B4DC4AE65713469EB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA457853E20CE7F6634D143B0713E4DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74DB5E6BBB88718939F84115D822C7F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C87EA6CD0F89EEB4FF068482EA63AD4 /* Pods-BBVA-randomuser-BBVA-randomuserUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD682A6263CF8A521A493DCCE998F8EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63D693076A7F69B7C0D0161BC070CCF /* Pods-BBVA-randomuser-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED619CFF9FE6C0F7413B8B28226D9F77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4E3CB672DD5AC59508C8ACD96FE5979 /* Pods-BBVA-randomuserTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		185FAC318DD9B4604010BCA482169582 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BBVA-randomuser";
+			target = 79F20C1680A500A2A2507641192B9F3F /* Pods-BBVA-randomuser */;
+			targetProxy = 814CBBAF14DAA19B3E0841124FE20A2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2901F5C3F4681D1E2E9A5B015AE45483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A82B6FAA67796C12E7DFE0BAB566089D /* Pods-BBVA-randomuser.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BBVA-randomuser/Pods-BBVA-randomuser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BBVA-randomuser/Pods-BBVA-randomuser.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		68D88A92D4785CAAD5A726C98AD8D7E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D58A3F47DEFAADF39348B2EEA94ABE45 /* Pods-BBVA-randomuser-BBVA-randomuserUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BBVA-randomuser-BBVA-randomuserUITests/Pods-BBVA-randomuser-BBVA-randomuserUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BBVA-randomuser-BBVA-randomuserUITests/Pods-BBVA-randomuser-BBVA-randomuserUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BE58DDB5ACDFDC393279E0058C134294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7054E0ED97CF3611A4231C1280449F4 /* Pods-BBVA-randomuser-BBVA-randomuserUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BBVA-randomuser-BBVA-randomuserUITests/Pods-BBVA-randomuser-BBVA-randomuserUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BBVA-randomuser-BBVA-randomuserUITests/Pods-BBVA-randomuser-BBVA-randomuserUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5D64F5A0F9190D04E5B9C1BC081AEA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ACE419EE01DDEABF3763574CBA27866 /* Pods-BBVA-randomuserTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BBVA-randomuserTests/Pods-BBVA-randomuserTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BBVA-randomuserTests/Pods-BBVA-randomuserTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA289C79D049B32F02ECDEB08C8425DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57D30696FC1F60F93CCA07247E9C8027 /* Pods-BBVA-randomuserTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BBVA-randomuserTests/Pods-BBVA-randomuserTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BBVA-randomuserTests/Pods-BBVA-randomuserTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC98D71CF0DEA2C9E549DA1C30DBCF46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A63D778B039F725CCDA5474C7962C0EB /* Pods-BBVA-randomuser.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BBVA-randomuser/Pods-BBVA-randomuser-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BBVA-randomuser/Pods-BBVA-randomuser.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BBCEAC3B6D810941B945CD34366FF16 /* Build configuration list for PBXNativeTarget "Pods-BBVA-randomuserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5D64F5A0F9190D04E5B9C1BC081AEA3 /* Debug */,
+				CA289C79D049B32F02ECDEB08C8425DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */,
+				5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63EC86F7AB6D959CEB3C44CF4D9FE4BC /* Build configuration list for PBXNativeTarget "Pods-BBVA-randomuser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC98D71CF0DEA2C9E549DA1C30DBCF46 /* Debug */,
+				2901F5C3F4681D1E2E9A5B015AE45483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FA16B9B4EF3864D2A425E35F13E57DD /* Build configuration list for PBXNativeTarget "Pods-BBVA-randomuser-BBVA-randomuserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68D88A92D4785CAAD5A726C98AD8D7E0 /* Debug */,
+				BE58DDB5ACDFDC393279E0058C134294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

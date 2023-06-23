@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0742980D46632FC768E94F29 /* Pods_BBVA_randomuserTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E350B668CA65CBF14F7537D7 /* Pods_BBVA_randomuserTests.framework */; };
 		6D0619702A458EF100D65A14 /* NoDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D06196E2A458EF100D65A14 /* NoDataCell.swift */; };
 		6D0619712A458EF100D65A14 /* NoDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D06196F2A458EF100D65A14 /* NoDataCell.xib */; };
 		6D0619742A45962900D65A14 /* BBVABatteryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0619732A45962900D65A14 /* BBVABatteryInfo.swift */; };
@@ -50,6 +51,8 @@
 		6DE343CB2A4500D600E468F2 /* BBVALoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE343CA2A4500D600E468F2 /* BBVALoginVC.swift */; };
 		6DE343CD2A45013B00E468F2 /* Image+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE343CC2A45013B00E468F2 /* Image+Extensions.swift */; };
 		6DE343CF2A45059D00E468F2 /* UIView+Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE343CE2A45059D00E468F2 /* UIView+Designable.swift */; };
+		772C15F8E3E60526353C0AAD /* Pods_BBVA_randomuser_BBVA_randomuserUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5132F351249CAB4BA6DB0727 /* Pods_BBVA_randomuser_BBVA_randomuserUITests.framework */; };
+		B4A1C97AFEA35DB5D35F46A9 /* Pods_BBVA_randomuser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6B33B3A52C49BB44344BC2 /* Pods_BBVA_randomuser.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +73,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07C3ED6C30F67CD356882B2C /* Pods-BBVA-randomuser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBVA-randomuser.debug.xcconfig"; path = "Target Support Files/Pods-BBVA-randomuser/Pods-BBVA-randomuser.debug.xcconfig"; sourceTree = "<group>"; };
+		1F1D8668FC19D5314CE1727D /* Pods-BBVA-randomuserTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBVA-randomuserTests.debug.xcconfig"; path = "Target Support Files/Pods-BBVA-randomuserTests/Pods-BBVA-randomuserTests.debug.xcconfig"; sourceTree = "<group>"; };
+		495608CDD59D3E5AC27093B8 /* Pods-BBVA-randomuser-BBVA-randomuserUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBVA-randomuser-BBVA-randomuserUITests.release.xcconfig"; path = "Target Support Files/Pods-BBVA-randomuser-BBVA-randomuserUITests/Pods-BBVA-randomuser-BBVA-randomuserUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5132F351249CAB4BA6DB0727 /* Pods_BBVA_randomuser_BBVA_randomuserUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BBVA_randomuser_BBVA_randomuserUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		513FF7D80012E7F814582B6D /* Pods-BBVA-randomuser-BBVA-randomuserUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBVA-randomuser-BBVA-randomuserUITests.debug.xcconfig"; path = "Target Support Files/Pods-BBVA-randomuser-BBVA-randomuserUITests/Pods-BBVA-randomuser-BBVA-randomuserUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		60483AFD46BAD4771B7DF17D /* Pods-BBVA-randomuserTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBVA-randomuserTests.release.xcconfig"; path = "Target Support Files/Pods-BBVA-randomuserTests/Pods-BBVA-randomuserTests.release.xcconfig"; sourceTree = "<group>"; };
 		6D06196E2A458EF100D65A14 /* NoDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDataCell.swift; sourceTree = "<group>"; };
 		6D06196F2A458EF100D65A14 /* NoDataCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoDataCell.xib; sourceTree = "<group>"; };
 		6D0619732A45962900D65A14 /* BBVABatteryInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBVABatteryInfo.swift; sourceTree = "<group>"; };
@@ -117,6 +126,9 @@
 		6DE343CA2A4500D600E468F2 /* BBVALoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBVALoginVC.swift; sourceTree = "<group>"; };
 		6DE343CC2A45013B00E468F2 /* Image+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extensions.swift"; sourceTree = "<group>"; };
 		6DE343CE2A45059D00E468F2 /* UIView+Designable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Designable.swift"; sourceTree = "<group>"; };
+		E074918F379FFBF7FC15248B /* Pods-BBVA-randomuser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBVA-randomuser.release.xcconfig"; path = "Target Support Files/Pods-BBVA-randomuser/Pods-BBVA-randomuser.release.xcconfig"; sourceTree = "<group>"; };
+		E350B668CA65CBF14F7537D7 /* Pods_BBVA_randomuserTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BBVA_randomuserTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD6B33B3A52C49BB44344BC2 /* Pods_BBVA_randomuser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BBVA_randomuser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4A1C97AFEA35DB5D35F46A9 /* Pods_BBVA_randomuser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0742980D46632FC768E94F29 /* Pods_BBVA_randomuserTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +152,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				772C15F8E3E60526353C0AAD /* Pods_BBVA_randomuser_BBVA_randomuserUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +276,8 @@
 				6DE343752A44D0DA00E468F2 /* BBVA-randomuserTests */,
 				6DE3437F2A44D0DA00E468F2 /* BBVA-randomuserUITests */,
 				6DE3435A2A44D0D900E468F2 /* Products */,
+				C4F926AF9495A69753AE955F /* Pods */,
+				DF5592B46125A3561ACF0CBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -477,6 +494,30 @@
 			path = URLRequest;
 			sourceTree = "<group>";
 		};
+		C4F926AF9495A69753AE955F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07C3ED6C30F67CD356882B2C /* Pods-BBVA-randomuser.debug.xcconfig */,
+				E074918F379FFBF7FC15248B /* Pods-BBVA-randomuser.release.xcconfig */,
+				513FF7D80012E7F814582B6D /* Pods-BBVA-randomuser-BBVA-randomuserUITests.debug.xcconfig */,
+				495608CDD59D3E5AC27093B8 /* Pods-BBVA-randomuser-BBVA-randomuserUITests.release.xcconfig */,
+				1F1D8668FC19D5314CE1727D /* Pods-BBVA-randomuserTests.debug.xcconfig */,
+				60483AFD46BAD4771B7DF17D /* Pods-BBVA-randomuserTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DF5592B46125A3561ACF0CBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD6B33B3A52C49BB44344BC2 /* Pods_BBVA_randomuser.framework */,
+				5132F351249CAB4BA6DB0727 /* Pods_BBVA_randomuser_BBVA_randomuserUITests.framework */,
+				E350B668CA65CBF14F7537D7 /* Pods_BBVA_randomuserTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -484,6 +525,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DE343862A44D0DA00E468F2 /* Build configuration list for PBXNativeTarget "BBVA-randomuser" */;
 			buildPhases = (
+				4BEB9EF53382D90E097A91A5 /* [CP] Check Pods Manifest.lock */,
 				6DE343552A44D0D900E468F2 /* Sources */,
 				6DE343562A44D0D900E468F2 /* Frameworks */,
 				6DE343572A44D0D900E468F2 /* Resources */,
@@ -501,6 +543,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DE343892A44D0DA00E468F2 /* Build configuration list for PBXNativeTarget "BBVA-randomuserTests" */;
 			buildPhases = (
+				C082C864CDA498B179D2357F /* [CP] Check Pods Manifest.lock */,
 				6DE3436E2A44D0DA00E468F2 /* Sources */,
 				6DE3436F2A44D0DA00E468F2 /* Frameworks */,
 				6DE343702A44D0DA00E468F2 /* Resources */,
@@ -519,6 +562,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6DE3438C2A44D0DA00E468F2 /* Build configuration list for PBXNativeTarget "BBVA-randomuserUITests" */;
 			buildPhases = (
+				93B47FA073BC374F4BF4206E /* [CP] Check Pods Manifest.lock */,
 				6DE343782A44D0DA00E468F2 /* Sources */,
 				6DE343792A44D0DA00E468F2 /* Frameworks */,
 				6DE3437A2A44D0DA00E468F2 /* Resources */,
@@ -605,6 +649,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BEB9EF53382D90E097A91A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BBVA-randomuser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93B47FA073BC374F4BF4206E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BBVA-randomuser-BBVA-randomuserUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C082C864CDA498B179D2357F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BBVA-randomuserTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6DE343552A44D0D900E468F2 /* Sources */ = {
@@ -816,6 +929,7 @@
 		};
 		6DE343872A44D0DA00E468F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07C3ED6C30F67CD356882B2C /* Pods-BBVA-randomuser.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -844,6 +958,7 @@
 		};
 		6DE343882A44D0DA00E468F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E074918F379FFBF7FC15248B /* Pods-BBVA-randomuser.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -872,6 +987,7 @@
 		};
 		6DE3438A2A44D0DA00E468F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F1D8668FC19D5314CE1727D /* Pods-BBVA-randomuserTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -892,6 +1008,7 @@
 		};
 		6DE3438B2A44D0DA00E468F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60483AFD46BAD4771B7DF17D /* Pods-BBVA-randomuserTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -912,6 +1029,7 @@
 		};
 		6DE3438D2A44D0DA00E468F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 513FF7D80012E7F814582B6D /* Pods-BBVA-randomuser-BBVA-randomuserUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -930,6 +1048,7 @@
 		};
 		6DE3438E2A44D0DA00E468F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 495608CDD59D3E5AC27093B8 /* Pods-BBVA-randomuser-BBVA-randomuserUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

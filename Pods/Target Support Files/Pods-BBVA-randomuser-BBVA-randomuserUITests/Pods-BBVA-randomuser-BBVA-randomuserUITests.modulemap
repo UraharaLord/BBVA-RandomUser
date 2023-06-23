@@ -1,0 +1,6 @@
+framework module Pods_BBVA_randomuser_BBVA_randomuserUITests {
+  umbrella header "Pods-BBVA-randomuser-BBVA-randomuserUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
