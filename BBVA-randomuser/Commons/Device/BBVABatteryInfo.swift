@@ -19,9 +19,9 @@ class BBVABatteryInfo {
         return device.batteryLevel
     }
        
-    var batteryState: UIDevice.BatteryState {
+    var batteryState: Int { // "UIDevice.BatteryState"
         device.isBatteryMonitoringEnabled = true
-        return device.batteryState
+        return device.batteryState.rawValue
     }
        
     var isLowPowerModeEnabled: Bool {

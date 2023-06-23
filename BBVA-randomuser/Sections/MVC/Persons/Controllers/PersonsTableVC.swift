@@ -11,6 +11,7 @@ class PersonsTableVC: UITableViewController {
     
     var person: BBVAPersonsResponse? = nil
     var filterPerson: BBVAPersonsResponse? = nil
+    internal var currentPage: Int = 0
     
     lazy var refresh: UIRefreshControl = {
         let refreshControl = UIRefreshControl()
@@ -33,6 +34,7 @@ class PersonsTableVC: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        FirebaseManager.shared.addNewentry()
         setupScreen()
     }
     
@@ -63,6 +65,16 @@ class PersonsTableVC: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
+    override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
+        let counter = filterPerson?.results.count ?? 0
+        
+        if indexPath.row == counter - 1 {
+            //call more data
+            
+            self.getDataPersons()
+        }
     }
     
     // MARK: - Objc

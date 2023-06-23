@@ -11,7 +11,8 @@ extension PersonsTableVC {
     func getDataPersons() {
         
         BBVALoading.show()
-        BBVAService.shared.getAllPersons { result in
+        currentPage += 1
+        BBVAService.shared.getAllPersons(page: "\(currentPage)") { result in
             BBVALoading.hide()
             
             if case .success(let personResponse) = result {
@@ -25,9 +26,13 @@ extension PersonsTableVC {
     }
     
     func updateUI(_ persons: BBVAPersonsResponse) {
-        self.person = persons
-        self.filterPerson = persons
+        if currentPage.isEquals(1) {
+            self.person = persons
+        } else {
+            self.person?.results.append(contentsOf: persons.results)
+        }
         
+        self.filterPerson = self.person
         DispatchQueue.main.async {
             self.tableView.reloadData()
         }

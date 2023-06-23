@@ -6,7 +6,9 @@ target 'BBVA-randomuser' do
   use_frameworks!
 
   # Pods for BBVA-randomuser
-
+  pod 'Firebase/Core'
+  pod 'FirebaseDatabase'
+  
   target 'BBVA-randomuserTests' do
     inherit! :search_paths
     # Pods for testing
