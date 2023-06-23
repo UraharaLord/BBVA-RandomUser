@@ -7,9 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D0619702A458EF100D65A14 /* NoDataCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D06196E2A458EF100D65A14 /* NoDataCell.swift */; };
+		6D0619712A458EF100D65A14 /* NoDataCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D06196F2A458EF100D65A14 /* NoDataCell.xib */; };
+		6D0619742A45962900D65A14 /* BBVABatteryInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0619732A45962900D65A14 /* BBVABatteryInfo.swift */; };
+		6D3568B32A451402000A53D3 /* BBVAGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3568B22A451402000A53D3 /* BBVAGender.swift */; };
+		6D3568B52A45164E000A53D3 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3568B42A45164E000A53D3 /* String+Extensions.swift */; };
+		6D3568B72A451705000A53D3 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3568B62A451705000A53D3 /* UIViewController+Extension.swift */; };
+		6D3568B92A4518A9000A53D3 /* TextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3568B82A4518A9000A53D3 /* TextField+Extension.swift */; };
+		6D3568BB2A451AB3000A53D3 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3568BA2A451AB3000A53D3 /* Int+Extension.swift */; };
+		6D3568BD2A452302000A53D3 /* BBVALoginVC+Bind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3568BC2A452302000A53D3 /* BBVALoginVC+Bind.swift */; };
+		6D3568C02A452598000A53D3 /* MVCHome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D3568BF2A452598000A53D3 /* MVCHome.storyboard */; };
+		6D3568C92A45265C000A53D3 /* PersonsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3568C82A45265C000A53D3 /* PersonsTableVC.swift */; };
+		6D3568CE2A457322000A53D3 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3568CC2A457322000A53D3 /* PersonCell.swift */; };
+		6D3568CF2A457322000A53D3 /* PersonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D3568CD2A457322000A53D3 /* PersonCell.xib */; };
+		6D3568D12A457391000A53D3 /* UUImage+Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3568D02A457391000A53D3 /* UUImage+Designable.swift */; };
+		6DA4B3942A457D4C009669A9 /* PersonsTableVC+Bind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA4B3932A457D4C009669A9 /* PersonsTableVC+Bind.swift */; };
 		6DE3435D2A44D0D900E468F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE3435C2A44D0D900E468F2 /* AppDelegate.swift */; };
 		6DE3435F2A44D0D900E468F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE3435E2A44D0D900E468F2 /* SceneDelegate.swift */; };
-		6DE343612A44D0D900E468F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE343602A44D0D900E468F2 /* ViewController.swift */; };
 		6DE343642A44D0D900E468F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DE343622A44D0D900E468F2 /* Main.storyboard */; };
 		6DE343672A44D0D900E468F2 /* BBVA_randomuser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6DE343652A44D0D900E468F2 /* BBVA_randomuser.xcdatamodeld */; };
 		6DE343692A44D0DA00E468F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DE343682A44D0DA00E468F2 /* Assets.xcassets */; };
@@ -17,6 +31,25 @@
 		6DE343772A44D0DA00E468F2 /* BBVA_randomuserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE343762A44D0DA00E468F2 /* BBVA_randomuserTests.swift */; };
 		6DE343812A44D0DA00E468F2 /* BBVA_randomuserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE343802A44D0DA00E468F2 /* BBVA_randomuserUITests.swift */; };
 		6DE343832A44D0DA00E468F2 /* BBVA_randomuserUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE343822A44D0DA00E468F2 /* BBVA_randomuserUITestsLaunchTests.swift */; };
+		6DE3439C2A44D5A000E468F2 /* BBVAServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE3439B2A44D5A000E468F2 /* BBVAServiceError.swift */; };
+		6DE3439E2A44D5B200E468F2 /* BBVAEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE3439D2A44D5B200E468F2 /* BBVAEndPoint.swift */; };
+		6DE343A02A44D5CA00E468F2 /* BBVARequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE3439F2A44D5CA00E468F2 /* BBVARequest.swift */; };
+		6DE343A32A44D5EE00E468F2 /* BBVAService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE343A22A44D5EE00E468F2 /* BBVAService.swift */; };
+		6DE343A52A44DD2600E468F2 /* BBVAService+Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE343A42A44DD2600E468F2 /* BBVAService+Methods.swift */; };
+		6DE343A72A44DF2400E468F2 /* BBVALoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE343A62A44DF2400E468F2 /* BBVALoading.swift */; };
+		6DE343A92A44E25300E468F2 /* BBVAIdiom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE343A82A44E25300E468F2 /* BBVAIdiom.swift */; };
+		6DE343AF2A44E54600E468F2 /* BBVAPersonsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE343AE2A44E54600E468F2 /* BBVAPersonsResponse.swift */; };
+		6DE343B12A44E5E800E468F2 /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE343B02A44E5E800E468F2 /* PersonModel.swift */; };
+		6DE343B32A44E80C00E468F2 /* BirthdayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE343B22A44E80C00E468F2 /* BirthdayModel.swift */; };
+		6DE343B52A44E84F00E468F2 /* PictureModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE343B42A44E84F00E468F2 /* PictureModel.swift */; };
+		6DE343B72A44E98700E468F2 /* IDModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE343B62A44E98700E468F2 /* IDModel.swift */; };
+		6DE343B92A44E9BA00E468F2 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE343B82A44E9BA00E468F2 /* LocationModel.swift */; };
+		6DE343BC2A44E9E100E468F2 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE343BB2A44E9E100E468F2 /* UserModel.swift */; };
+		6DE343BE2A44EA0400E468F2 /* StreetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE343BD2A44EA0400E468F2 /* StreetModel.swift */; };
+		6DE343C02A44EA0800E468F2 /* NameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE343BF2A44EA0800E468F2 /* NameModel.swift */; };
+		6DE343CB2A4500D600E468F2 /* BBVALoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE343CA2A4500D600E468F2 /* BBVALoginVC.swift */; };
+		6DE343CD2A45013B00E468F2 /* Image+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE343CC2A45013B00E468F2 /* Image+Extensions.swift */; };
+		6DE343CF2A45059D00E468F2 /* UIView+Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE343CE2A45059D00E468F2 /* UIView+Designable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +70,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D06196E2A458EF100D65A14 /* NoDataCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDataCell.swift; sourceTree = "<group>"; };
+		6D06196F2A458EF100D65A14 /* NoDataCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoDataCell.xib; sourceTree = "<group>"; };
+		6D0619732A45962900D65A14 /* BBVABatteryInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBVABatteryInfo.swift; sourceTree = "<group>"; };
+		6D3568B22A451402000A53D3 /* BBVAGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBVAGender.swift; sourceTree = "<group>"; };
+		6D3568B42A45164E000A53D3 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		6D3568B62A451705000A53D3 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		6D3568B82A4518A9000A53D3 /* TextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+Extension.swift"; sourceTree = "<group>"; };
+		6D3568BA2A451AB3000A53D3 /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
+		6D3568BC2A452302000A53D3 /* BBVALoginVC+Bind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BBVALoginVC+Bind.swift"; sourceTree = "<group>"; };
+		6D3568BF2A452598000A53D3 /* MVCHome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MVCHome.storyboard; sourceTree = "<group>"; };
+		6D3568C82A45265C000A53D3 /* PersonsTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsTableVC.swift; sourceTree = "<group>"; };
+		6D3568CC2A457322000A53D3 /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		6D3568CD2A457322000A53D3 /* PersonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonCell.xib; sourceTree = "<group>"; };
+		6D3568D02A457391000A53D3 /* UUImage+Designable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UUImage+Designable.swift"; sourceTree = "<group>"; };
+		6DA4B3932A457D4C009669A9 /* PersonsTableVC+Bind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PersonsTableVC+Bind.swift"; sourceTree = "<group>"; };
 		6DE343592A44D0D900E468F2 /* BBVA-randomuser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BBVA-randomuser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DE3435C2A44D0D900E468F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DE3435E2A44D0D900E468F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6DE343602A44D0D900E468F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6DE343632A44D0D900E468F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6DE343662A44D0D900E468F2 /* BBVA_randomuser.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BBVA_randomuser.xcdatamodel; sourceTree = "<group>"; };
 		6DE343682A44D0DA00E468F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +98,25 @@
 		6DE3437C2A44D0DA00E468F2 /* BBVA-randomuserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BBVA-randomuserUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DE343802A44D0DA00E468F2 /* BBVA_randomuserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBVA_randomuserUITests.swift; sourceTree = "<group>"; };
 		6DE343822A44D0DA00E468F2 /* BBVA_randomuserUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBVA_randomuserUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6DE3439B2A44D5A000E468F2 /* BBVAServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBVAServiceError.swift; sourceTree = "<group>"; };
+		6DE3439D2A44D5B200E468F2 /* BBVAEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBVAEndPoint.swift; sourceTree = "<group>"; };
+		6DE3439F2A44D5CA00E468F2 /* BBVARequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBVARequest.swift; sourceTree = "<group>"; };
+		6DE343A22A44D5EE00E468F2 /* BBVAService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBVAService.swift; sourceTree = "<group>"; };
+		6DE343A42A44DD2600E468F2 /* BBVAService+Methods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BBVAService+Methods.swift"; sourceTree = "<group>"; };
+		6DE343A62A44DF2400E468F2 /* BBVALoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBVALoading.swift; sourceTree = "<group>"; };
+		6DE343A82A44E25300E468F2 /* BBVAIdiom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBVAIdiom.swift; sourceTree = "<group>"; };
+		6DE343AE2A44E54600E468F2 /* BBVAPersonsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBVAPersonsResponse.swift; sourceTree = "<group>"; };
+		6DE343B02A44E5E800E468F2 /* PersonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
+		6DE343B22A44E80C00E468F2 /* BirthdayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayModel.swift; sourceTree = "<group>"; };
+		6DE343B42A44E84F00E468F2 /* PictureModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureModel.swift; sourceTree = "<group>"; };
+		6DE343B62A44E98700E468F2 /* IDModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDModel.swift; sourceTree = "<group>"; };
+		6DE343B82A44E9BA00E468F2 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		6DE343BB2A44E9E100E468F2 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		6DE343BD2A44EA0400E468F2 /* StreetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetModel.swift; sourceTree = "<group>"; };
+		6DE343BF2A44EA0800E468F2 /* NameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameModel.swift; sourceTree = "<group>"; };
+		6DE343CA2A4500D600E468F2 /* BBVALoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBVALoginVC.swift; sourceTree = "<group>"; };
+		6DE343CC2A45013B00E468F2 /* Image+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extensions.swift"; sourceTree = "<group>"; };
+		6DE343CE2A45059D00E468F2 /* UIView+Designable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Designable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +144,116 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D06196C2A458ED200D65A14 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6D06196D2A458EDC00D65A14 /* NoDataCell */,
+				6D3568CA2A452804000A53D3 /* PersonCell */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		6D06196D2A458EDC00D65A14 /* NoDataCell */ = {
+			isa = PBXGroup;
+			children = (
+				6D06196E2A458EF100D65A14 /* NoDataCell.swift */,
+				6D06196F2A458EF100D65A14 /* NoDataCell.xib */,
+			);
+			path = NoDataCell;
+			sourceTree = "<group>";
+		};
+		6D0619722A45960E00D65A14 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				6D0619732A45962900D65A14 /* BBVABatteryInfo.swift */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		6D3568BE2A452307000A53D3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6D3568BC2A452302000A53D3 /* BBVALoginVC+Bind.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6D3568C12A4525A3000A53D3 /* Persons */ = {
+			isa = PBXGroup;
+			children = (
+				6D3568C62A452625000A53D3 /* View */,
+				6D3568C72A45262B000A53D3 /* Controllers */,
+			);
+			path = Persons;
+			sourceTree = "<group>";
+		};
+		6D3568C22A4525AF000A53D3 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				6D3568C12A4525A3000A53D3 /* Persons */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		6D3568C42A4525F5000A53D3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D3568BE2A452307000A53D3 /* Extensions */,
+				6DE343CA2A4500D600E468F2 /* BBVALoginVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6D3568C52A452603000A53D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6DE343622A44D0D900E468F2 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6D3568C62A452625000A53D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6D3568BF2A452598000A53D3 /* MVCHome.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6D3568C72A45262B000A53D3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D06196C2A458ED200D65A14 /* Cells */,
+				6DA4B3922A457D3B009669A9 /* Extensions */,
+				6D3568C82A45265C000A53D3 /* PersonsTableVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6D3568CA2A452804000A53D3 /* PersonCell */ = {
+			isa = PBXGroup;
+			children = (
+				6D3568CC2A457322000A53D3 /* PersonCell.swift */,
+				6D3568CD2A457322000A53D3 /* PersonCell.xib */,
+			);
+			path = PersonCell;
+			sourceTree = "<group>";
+		};
+		6D3568CB2A452CBE000A53D3 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		6DA4B3922A457D3B009669A9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6DA4B3932A457D4C009669A9 /* PersonsTableVC+Bind.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		6DE343502A44D0D900E468F2 = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +277,14 @@
 		6DE3435B2A44D0D900E468F2 /* BBVA-randomuser */ = {
 			isa = PBXGroup;
 			children = (
-				6DE3435C2A44D0D900E468F2 /* AppDelegate.swift */,
-				6DE3435E2A44D0D900E468F2 /* SceneDelegate.swift */,
-				6DE343602A44D0D900E468F2 /* ViewController.swift */,
-				6DE343622A44D0D900E468F2 /* Main.storyboard */,
-				6DE343682A44D0DA00E468F2 /* Assets.xcassets */,
-				6DE3436A2A44D0DA00E468F2 /* LaunchScreen.storyboard */,
-				6DE3436D2A44D0DA00E468F2 /* Info.plist */,
-				6DE343652A44D0D900E468F2 /* BBVA_randomuser.xcdatamodeld */,
+				6DE343AA2A44E4FD00E468F2 /* Models */,
+				6DE343902A44D31E00E468F2 /* Delegate */,
+				6DE3439A2A44D56500E468F2 /* ApiClient */,
+				6DE343912A44D34A00E468F2 /* Sections */,
+				6DE343942A44D4D200E468F2 /* DataBase */,
+				6DE343952A44D4E900E468F2 /* Commons */,
+				6DE343922A44D3CE00E468F2 /* Launch */,
+				6DE3438F2A44D0E200E468F2 /* Resources */,
 			);
 			path = "BBVA-randomuser";
 			sourceTree = "<group>";
@@ -128,6 +304,177 @@
 				6DE343822A44D0DA00E468F2 /* BBVA_randomuserUITestsLaunchTests.swift */,
 			);
 			path = "BBVA-randomuserUITests";
+			sourceTree = "<group>";
+		};
+		6DE3438F2A44D0E200E468F2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6DE3436D2A44D0DA00E468F2 /* Info.plist */,
+				6DE343682A44D0DA00E468F2 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6DE343902A44D31E00E468F2 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				6DE3435C2A44D0D900E468F2 /* AppDelegate.swift */,
+				6DE3435E2A44D0D900E468F2 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		6DE343912A44D34A00E468F2 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				6DE343932A44D3F400E468F2 /* Login */,
+				6D3568C22A4525AF000A53D3 /* MVC */,
+				6D3568CB2A452CBE000A53D3 /* MVVM */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		6DE343922A44D3CE00E468F2 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				6DE3436A2A44D0DA00E468F2 /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		6DE343932A44D3F400E468F2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6D3568C52A452603000A53D3 /* View */,
+				6D3568C42A4525F5000A53D3 /* Controllers */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6DE343942A44D4D200E468F2 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				6DE343652A44D0D900E468F2 /* BBVA_randomuser.xcdatamodeld */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		6DE343952A44D4E900E468F2 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				6DE343962A44D4FA00E468F2 /* UIKit */,
+				6D0619722A45960E00D65A14 /* Device */,
+				6DE343972A44D50500E468F2 /* Loading */,
+				6DE343982A44D51400E468F2 /* Extensions */,
+				6DE343992A44D51D00E468F2 /* IBDesignables */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		6DE343962A44D4FA00E468F2 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		6DE343972A44D50500E468F2 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				6DE343A62A44DF2400E468F2 /* BBVALoading.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		6DE343982A44D51400E468F2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6D3568BA2A451AB3000A53D3 /* Int+Extension.swift */,
+				6DE343CC2A45013B00E468F2 /* Image+Extensions.swift */,
+				6D3568B42A45164E000A53D3 /* String+Extensions.swift */,
+				6D3568B82A4518A9000A53D3 /* TextField+Extension.swift */,
+				6D3568B62A451705000A53D3 /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6DE343992A44D51D00E468F2 /* IBDesignables */ = {
+			isa = PBXGroup;
+			children = (
+				6DE343CE2A45059D00E468F2 /* UIView+Designable.swift */,
+				6D3568D02A457391000A53D3 /* UUImage+Designable.swift */,
+			);
+			path = IBDesignables;
+			sourceTree = "<group>";
+		};
+		6DE3439A2A44D56500E468F2 /* ApiClient */ = {
+			isa = PBXGroup;
+			children = (
+				6DE343C22A44EB7A00E468F2 /* Enum */,
+				6DE343C12A44EB6C00E468F2 /* Service */,
+				6DE343C32A44EB9D00E468F2 /* URLRequest */,
+			);
+			path = ApiClient;
+			sourceTree = "<group>";
+		};
+		6DE343AA2A44E4FD00E468F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6DE343AB2A44E50400E468F2 /* DataTypes */,
+				6DE343AC2A44E50D00E468F2 /* ApiResponseType */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6DE343AB2A44E50400E468F2 /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				6DE343B62A44E98700E468F2 /* IDModel.swift */,
+				6DE343BB2A44E9E100E468F2 /* UserModel.swift */,
+				6DE343BF2A44EA0800E468F2 /* NameModel.swift */,
+				6DE343BD2A44EA0400E468F2 /* StreetModel.swift */,
+				6DE343B42A44E84F00E468F2 /* PictureModel.swift */,
+				6DE343B02A44E5E800E468F2 /* PersonModel.swift */,
+				6DE343B22A44E80C00E468F2 /* BirthdayModel.swift */,
+				6DE343B82A44E9BA00E468F2 /* LocationModel.swift */,
+			);
+			path = DataTypes;
+			sourceTree = "<group>";
+		};
+		6DE343AC2A44E50D00E468F2 /* ApiResponseType */ = {
+			isa = PBXGroup;
+			children = (
+				6DE343AE2A44E54600E468F2 /* BBVAPersonsResponse.swift */,
+			);
+			path = ApiResponseType;
+			sourceTree = "<group>";
+		};
+		6DE343C12A44EB6C00E468F2 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6DE343A22A44D5EE00E468F2 /* BBVAService.swift */,
+				6DE343A42A44DD2600E468F2 /* BBVAService+Methods.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		6DE343C22A44EB7A00E468F2 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				6DE343A82A44E25300E468F2 /* BBVAIdiom.swift */,
+				6D3568B22A451402000A53D3 /* BBVAGender.swift */,
+				6DE3439D2A44D5B200E468F2 /* BBVAEndPoint.swift */,
+				6DE3439B2A44D5A000E468F2 /* BBVAServiceError.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		6DE343C32A44EB9D00E468F2 /* URLRequest */ = {
+			isa = PBXGroup;
+			children = (
+				6DE3439F2A44D5CA00E468F2 /* BBVARequest.swift */,
+			);
+			path = URLRequest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +581,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D3568C02A452598000A53D3 /* MVCHome.storyboard in Resources */,
+				6D3568CF2A457322000A53D3 /* PersonCell.xib in Resources */,
+				6D0619712A458EF100D65A14 /* NoDataCell.xib in Resources */,
 				6DE3436C2A44D0DA00E468F2 /* LaunchScreen.storyboard in Resources */,
 				6DE343692A44D0DA00E468F2 /* Assets.xcassets in Resources */,
 				6DE343642A44D0D900E468F2 /* Main.storyboard in Resources */,
@@ -261,10 +611,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DE343612A44D0D900E468F2 /* ViewController.swift in Sources */,
+				6DE343AF2A44E54600E468F2 /* BBVAPersonsResponse.swift in Sources */,
+				6DE343B12A44E5E800E468F2 /* PersonModel.swift in Sources */,
+				6DE343A72A44DF2400E468F2 /* BBVALoading.swift in Sources */,
+				6DE343CD2A45013B00E468F2 /* Image+Extensions.swift in Sources */,
+				6D3568B52A45164E000A53D3 /* String+Extensions.swift in Sources */,
+				6D3568B32A451402000A53D3 /* BBVAGender.swift in Sources */,
+				6DE343B32A44E80C00E468F2 /* BirthdayModel.swift in Sources */,
+				6D0619702A458EF100D65A14 /* NoDataCell.swift in Sources */,
 				6DE3435D2A44D0D900E468F2 /* AppDelegate.swift in Sources */,
+				6DE343B72A44E98700E468F2 /* IDModel.swift in Sources */,
+				6D3568D12A457391000A53D3 /* UUImage+Designable.swift in Sources */,
+				6DE343B52A44E84F00E468F2 /* PictureModel.swift in Sources */,
+				6DE343CB2A4500D600E468F2 /* BBVALoginVC.swift in Sources */,
+				6DE343BE2A44EA0400E468F2 /* StreetModel.swift in Sources */,
+				6D3568BB2A451AB3000A53D3 /* Int+Extension.swift in Sources */,
+				6DE3439C2A44D5A000E468F2 /* BBVAServiceError.swift in Sources */,
+				6D3568C92A45265C000A53D3 /* PersonsTableVC.swift in Sources */,
+				6D3568CE2A457322000A53D3 /* PersonCell.swift in Sources */,
+				6D3568BD2A452302000A53D3 /* BBVALoginVC+Bind.swift in Sources */,
+				6D3568B72A451705000A53D3 /* UIViewController+Extension.swift in Sources */,
+				6DE343A92A44E25300E468F2 /* BBVAIdiom.swift in Sources */,
+				6DE343A02A44D5CA00E468F2 /* BBVARequest.swift in Sources */,
+				6DE343A32A44D5EE00E468F2 /* BBVAService.swift in Sources */,
 				6DE343672A44D0D900E468F2 /* BBVA_randomuser.xcdatamodeld in Sources */,
 				6DE3435F2A44D0D900E468F2 /* SceneDelegate.swift in Sources */,
+				6DE343A52A44DD2600E468F2 /* BBVAService+Methods.swift in Sources */,
+				6DE343C02A44EA0800E468F2 /* NameModel.swift in Sources */,
+				6DA4B3942A457D4C009669A9 /* PersonsTableVC+Bind.swift in Sources */,
+				6DE343B92A44E9BA00E468F2 /* LocationModel.swift in Sources */,
+				6DE343CF2A45059D00E468F2 /* UIView+Designable.swift in Sources */,
+				6DE343BC2A44E9E100E468F2 /* UserModel.swift in Sources */,
+				6DE3439E2A44D5B200E468F2 /* BBVAEndPoint.swift in Sources */,
+				6D0619742A45962900D65A14 /* BBVABatteryInfo.swift in Sources */,
+				6D3568B92A4518A9000A53D3 /* TextField+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,7 +823,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QA93CB9DN5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "BBVA-randomuser/Info.plist";
+				INFOPLIST_FILE = "BBVA-randomuser/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -471,7 +851,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QA93CB9DN5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "BBVA-randomuser/Info.plist";
+				INFOPLIST_FILE = "BBVA-randomuser/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

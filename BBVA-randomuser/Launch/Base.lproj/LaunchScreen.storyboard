@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_city" translatesAutoresizingMaskIntoConstraints="NO" id="mwy-yE-JJG">
+                                <rect key="frame" x="111" y="0.0" width="282" height="852"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="282" id="kVO-xC-8PR"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_persons" translatesAutoresizingMaskIntoConstraints="NO" id="as6-NP-vqq">
+                                <rect key="frame" x="118.66666666666669" y="235.66666666666663" width="156" height="381"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="381" id="6tK-AX-Dbd"/>
+                                    <constraint firstAttribute="width" constant="156" id="ym0-3j-crY"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="as6-NP-vqq" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="9gA-lp-54Z"/>
+                            <constraint firstAttribute="bottom" secondItem="mwy-yE-JJG" secondAttribute="bottom" id="K9J-yQ-VcD"/>
+                            <constraint firstItem="mwy-yE-JJG" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="MA2-96-Rhc"/>
+                            <constraint firstItem="mwy-yE-JJG" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="kPh-nq-lAn"/>
+                            <constraint firstItem="as6-NP-vqq" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ti5-mX-sr1"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="img_city" width="300" height="900"/>
+        <image name="img_persons" width="105" height="300"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
