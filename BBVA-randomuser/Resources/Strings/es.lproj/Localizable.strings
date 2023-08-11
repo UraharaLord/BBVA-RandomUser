@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  BBVA-randomuser
+
+  Created by Uriel Rodriguez on 23/06/23.
+  
+*/
+
+login_txtUser = "";
+login_txtPass = "";

@@ -23,14 +23,14 @@ class FirebaseManager {
         dataBase.child("BatteryData").setValue(obj)
     }
     
-    func observeBateryEvent() {
+    func observeBateryEvent(completion: @escaping([String: Any]) -> Void) {
         dataBase.child("BatteryData").observeSingleEvent(of: .value) { response in
             guard let value = response.value as? [String: Any] else {
                 return
             }
             
-            
             print("Datos: ", value)
+            completion(value)
         }
     }
 }

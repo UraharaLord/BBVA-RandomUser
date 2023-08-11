@@ -16,9 +16,9 @@ class BatteryVC: UIViewController {
     }
     
     func setupScreen() {
-        title = "Persons"
+        title = "Battery"
         navigationController?.navigationBar.prefersLargeTitles = true
         
-        FirebaseManager.shared.observeBateryEvent()
+        UserDefaultManager.shared.saveBatteryInfo()
     }
 }

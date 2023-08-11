@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TIz-8s-CXD">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -31,10 +32,10 @@
             </objects>
             <point key="canvasLocation" x="218" y="1296"/>
         </scene>
-        <!--View Controller-->
+        <!--BatteryVC-->
         <scene sceneID="yhI-z8-KCs">
             <objects>
-                <viewController id="R2k-a5-lPl" sceneMemberID="viewController">
+                <viewController id="R2k-a5-lPl" customClass="BatteryVC" customModule="BBVA_randomuser" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="89o-qy-twd">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -66,11 +67,11 @@
             </objects>
             <point key="canvasLocation" x="589" y="-144"/>
         </scene>
-        <!--Persons-->
+        <!--Personas-->
         <scene sceneID="1KR-He-S1A">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0eO-fc-AJ9" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Persons" image="person.3.sequence" catalog="system" id="HbY-me-7V9"/>
+                    <tabBarItem key="tabBarItem" title="Personas" image="person.3.sequence" catalog="system" id="HbY-me-7V9"/>
                     <toolbarItems/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <navigationBar key="navigationBar" clipsSubviews="YES" contentMode="scaleToFill" id="qj1-2s-hGL">
@@ -86,13 +87,13 @@
             </objects>
             <point key="canvasLocation" x="218" y="592"/>
         </scene>
-        <!--Battery-->
+        <!--Bateria-->
         <scene sceneID="bOs-ha-NC9">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4gd-xf-tnh" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Battery" image="battery.100.bolt" catalog="system" id="uN5-fk-8C6"/>
+                    <tabBarItem key="tabBarItem" title="Bateria" image="battery.100.bolt" catalog="system" id="uN5-fk-8C6"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ubg-SY-o0R">
+                    <navigationBar key="navigationBar" clipsSubviews="YES" contentMode="scaleToFill" id="ubg-SY-o0R">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
